@@ -6,6 +6,6 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
-        printf("Your Name\n");   /* write your own name here */
+        printf("Dimple\n");   
     return 0;
 }
