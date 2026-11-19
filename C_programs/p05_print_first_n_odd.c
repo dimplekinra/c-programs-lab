@@ -5,6 +5,6 @@ void main()
     int n, i;
     printf("Enter n: ");
     scanf("%d", &n);
-    for (i = 1; i <= n; i++)
-        printf("%d\n", 2 * i - 1);
+    for (i = 1; i <= n; i=i+2)
+        printf("%d\n", i);
 }
